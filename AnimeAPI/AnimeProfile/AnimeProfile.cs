@@ -10,6 +10,13 @@ namespace AnimeAPI.AnimeProfile
         {
             CreateMap<Anime, ReadAnimeDto>();
             CreateMap<CreateAnimeDto, Anime>();
+            CreateMap<UpdateAnimeDto, Anime>();
+            CreateMap<Anime, UpdateAnimeDto>();
+
+            CreateMap<Character, ReadCharacterDto>();
+            CreateMap<CreateCharacterDto, Character>();
+            CreateMap<UpdateCharacterDto, Character>();
+            CreateMap<Character, UpdateCharacterDto>();
         }
     }
 }
